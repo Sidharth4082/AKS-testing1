@@ -45,9 +45,9 @@ metadata:
   namespace: default
 spec:
   ports:
-  - port: 8100 #CHANGE
+  - port: 8200 #CHANGE
     protocol: TCP
-    targetPort: 8100 #CHANGE
+    targetPort: 8200 #CHANGE
   selector:
     app: hello-world-python
   sessionAffinity: None #CHANGE
